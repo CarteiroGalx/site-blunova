@@ -1,0 +1,117 @@
+.container img{
+    height: 60vh;
+}
+
+.display-5{
+    padding-top: 80px;
+}
+
+
+@media (min-width: 992px) {
+
+    .text-h{
+        font-size: 60px;
+    }
+    .text-p{
+        font-size: 20px;
+    }
+    .round-to-left{
+        border-radius: 0 244px 244px 0;
+    }
+    .round-to-right{
+        border-radius: 244px 0 0 244px;
+    }
+
+    .carousel-item img{
+        height: 60vh;
+    }
+    
+}
+
+
+
+@media (max-width: 576px){
+    footer img{
+        margin: auto;
+    }
+
+    .container img{
+        height: 40vh;   
+    }
+    .text-h{
+        font-size: 30px;
+    }
+    .text-p{
+        font-size: 10px;
+    }
+
+    .text-div-r{
+        margin-right: 25px;
+    }
+
+    .text-div-l{
+        margin-left: 25px;
+    }
+    .round-to-left{
+        border-radius: 0 390px 390px 0;
+    }
+
+    .round-to-right{
+        border-radius: 390px 0 0 390px;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .container img{
+        height: 30vh;
+    }
+
+    .d-lg-block img{
+        height: 20vh;
+    }
+
+    .text-h{
+        font-size: 21px;
+    }
+
+    .text-p{
+        font-size: 13px;
+    }
+}
+
+
+@media (min-width: 1720px){
+
+    .text-h{
+        font-size: 120px;
+    }
+    .text-p{
+        font-size: 35px;
+    }
+
+    .round-to-left{
+        border-radius: 0 390px 390px 0;
+    }
+
+    .round-to-right{
+        border-radius: 390px 0 0 390px;
+    }
+
+    #logo{
+        width: 30vh;
+    }
+
+    .btn{
+        font-size: xx-large;
+    }
+
+    .btns{
+        margin-top: 30px;
+    }
+
+    .display-5{
+        padding-top: 150px;
+    }
+}
+
